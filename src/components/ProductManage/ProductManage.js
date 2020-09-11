@@ -12,7 +12,6 @@ const ProductManage = () => {
         const product = fakeData.find(data => data.key === productKey);
         setProduct(product);
     }, [])
-    console.log(product)
     return (
         <div>
             <h1>Your Product is found</h1>
